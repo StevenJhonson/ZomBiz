@@ -1,124 +1,441 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Document</title>
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-            font-family: sans-serif;
-        }
-    
-        .header {
-            background-color: rgba(115, 152, 216, 1);
-            height: 90px;
-        }
-    
-        .container {
-            width: 80%;
-            margin: 0 auto;
-        }
-    
-        .header-content {
-            display: flex;
-            justify-content: space-between;
-            height: 90px;
-            align-items: center;
-            color: white;
-            font-weight: bold;
-        }
-    
-        ul {
-            display: flex;
-            list-style: none;
-        }
-    
-        .header-content ul li {
-            margin-left: 15px;
-        }
-    
-        .home-main {
-            background-image: linear-gradient(rgba(45, 140, 218, 0.5), rgba(45, 140, 218, 0.5)), url(pics/office.jpg);
-            height: 600px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            padding-top: 30px;
-        }
-    
-        .home-main-content {
-            color: white;
-        }
-        button {
-            padding: 10px 25px 10px 25px;
-            font-size: 20px;
-            margin-right: 30px;
-            color: blue;
-        }
-        button:hover {
-            background-color: transparent;
-            color:white;
-        }
-    
-        .h1 {
-            margin-top: 100px;
-            font-size: 60px;
-        }
-    
-        p {
-            font-size: 20px;
-        }
-    </style>
 </head>
+
 <body>
-    <div class="header">
-                <div class="container">
-        
-                    <div class="header-content">
-        
-                        <div class="logo">
-                            <h1>ZomBiz</h1>
+    <div class="container">
+
+        <div class="container-top">
+            <div class="top">
+                <div class="top-left">
+                    <p><i class="fas fa-phone"></i> +992 563 542</p>
+                    <p><i class="fas fa-envelope"></i> info@mail.com</p>
+                </div>
+                <div class="top-right">
+                    <h3>Register / Log in</h3>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-google-plus"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="header-top-color">
+            <div class="header-top">
+                <div class="zombiz">
+                    <h1>ZomBiz</h1>
+                </div>
+                <ul>
+                    <li> <a href="#what"> Home </a> </li>
+                    <li> <a href=""> About </a> </li>
+                    <li> <a href=""> Service </a> </li>
+                    <li> <a href=""> Project </a> </li>
+                    <li> <a href=""> Team </a> </li>
+                    <li> <a href=""> Blog </a> </li>
+                    <li> <a href=""> Contact </a> </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="header">
+            <div class="header-bottom">
+                <h1>Consult Your <br>Business With Us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quo soluta et nobis placeat
+                    consequuntur.</p>
+                <div class="btns">
+                    <button>Get Started</button>
+                    <button>Explore More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="body1">
+            <div id="what" class="what">
+                <h1>What We Do</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi recusandae rem molestias ex dicta
+                    porro veritatis earum saepe voluptas fuga.</p>
+
+                <div class="cards">
+                    <div class="card">
+                        <img src="pics/home/consultency.png" alt="">
+                        <h2>Business Consultancy</h2>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, hic perferendis. Quod,
+                            repellat
+                            ut!</p>
+                    </div>
+                    <div class="card">
+                        <img src="pics/home/busisness_grow.png" alt="">
+                        <h2>Help To Grow Business</h2>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, hic perferendis. Quod,
+                            repellat
+                            ut!</p>
+                    </div>
+                    <div class="card">
+                        <img src="pics/home/support-logo.png" alt="">
+                        <h2>Great Support</h2>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, hic perferendis. Quod,
+                            repellat
+                            ut!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body2">
+            <div class="about">
+                <div class="card-left">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum inventore esse qui ut laborum.
+                        Ducimus totam voluptatibus temporibus quidem quo fuga excepturi repellat, consequatur tenetur
+                        quam magnam culpa </p>
+                    <button>LEARN MORE</button>
+                </div>
+                <div class="card-right">
+                    <img src="pics/about/about-part.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="body3">
+            <div class="service">
+                <h1>Our Services</h1>
+                <p>Pallamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <div class="content1">
+                    <div class="content">
+                        <img src="pics/service/service1.png" alt="">
+                        <h2>Business Planning</h2>
+                        <p>Lorem ipsum dolo dolor in in voluptate velit esse cillum dolore. epteur sint oat cupidatat
+                        </p>
+                        <li>Learn More</li>
+                    </div>
+                    <div class="content">
+                        <img src="pics/service/service2.png" alt="">
+                        <h2>Business Planning</h2>
+                        <p>Lorem ipsum dolo dolor in in voluptate velit esse cillum dolore. epteur sint oat cupidatat
+                        </p>
+                        <li>Learn More</li>
+                    </div>
+                    <div class="content">
+                        <img src="pics/service/service3.png" alt="">
+                        <h2>Business Planning</h2>
+                        <p>Lorem ipsum dolo dolor in in voluptate velit esse cillum dolore. epteur sint oat cupidatat
+                        </p>
+                        <li>Learn More</li>
+                    </div>
+                </div>
+                <div class="content2">
+                    <div class="content">
+                        <img src="pics/service/service4.png" alt="">
+                        <h2>Business Planning</h2>
+                        <p>Lorem ipsum dolo dolor in in voluptate velit esse cillum dolore. epteur sint oat cupidatat
+                        </p>
+                        <li>Learn More</li>
+                    </div>
+                    <div class="content">
+                        <img src="pics/service/service5.png" alt="">
+                        <h2>Business Planning</h2>
+                        <p>Lorem ipsum dolo dolor in in voluptate velit esse cillum dolore. epteur sint oat cupidatat
+                        </p>
+                        <li>Learn More</li>
+                    </div>
+                    <div class="content">
+                        <img src="pics/service/service6.png" alt="">
+                        <h2>Business Planning</h2>
+                        <p>Lorem ipsum dolo dolor in in voluptate velit esse cillum dolore. epteur sint oat cupidatat
+                        </p>
+                        <li>Learn More</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body4">
+            <div class="keys">
+                <div class="key">
+                    <div class="key-left">
+                        <img src="pics/counter/counter1.png" alt="">
+                    </div>
+                    <div class="key-right">
+                        <h1>2556</h1>
+                        <p>Days Worked</p>
+                    </div>
+                </div>
+                <div class="key">
+                    <div class="key-left">
+                        <img src="pics/counter/counter2.png" alt="">
+                    </div>
+                    <div class="key-right">
+                        <h1>326</h1>
+                        <p>Project Finished</p>
+                    </div>
+                </div>
+                <div class="key">
+                    <div class="key-left">
+                        <img src="pics/counter/counter3.png" alt="">
+                    </div>
+                    <div class="key-right">
+                        <h1>1526</h1>
+                        <p>Coffee Cup</p>
+                    </div>
+                </div>
+                <div class="key">
+                    <div class="key-left">
+                        <img src="pics/counter/counter4.png" alt="">
+                    </div>
+                    <div class="key-right">
+                        <h1>856</h1>
+                        <p>Client Satisfied</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body5">
+            <h1>Our Finished Projects</h1>
+            <p>Pallamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="projects">
+
+
+                <div class="project1">
+                    <div class="pic">
+                        <img src="pics/project/project1.jpg" width="360px" height="600px" alt="">
+                    </div>
+                </div>
+
+                <div class="project2">
+                    <div class="pic1">
+                        <div class="pic">
+                            <img src="pics/project/project2.jpg" width="320px" height="288px" alt="">
                         </div>
-        
+                        <div class="pic">
+                            <img src="pics/project/project3.jpg" width="320px" height="288px" alt="">
+                        </div>
+                    </div>
+                    <div class="pic2">
+                        <div class="pic">
+                            <img src="pics/project/project4.jpg" width="320px" height="288px" alt="">
+                        </div>
+                        <div class="pic">
+                            <img src="pics/project/project5.jpg" width="320px" height="288px" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="all">
+                <a href="">VIEW ALL</a>
+            </div>
+        </div>
+
+        <div class="body6">
+            <div class="body6-up">
+                <h1>Our Expert Team</h1>
+                <p>Pallamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="body6-down">
+
+                    <div class="boxes">
+
+                        <div class="box1">
+
+                            <div class="border">
+                                <h2>Alex Browne</h2>
+                                <h3>Director management vs Research</h3>
+                                <a href="">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <div class="border">
+                                <h2>Darren J.Stevens</h2>
+                                <h3>Director, Finance Solution</h3>
+                                <a href="">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="box3">
+                            <div class="border">
+                                <h2>Darren J.Stevens</h2>
+                                <h3>Director, Finance Solution</h3>
+                                <a href="">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="box4">
+                            <div class="border">
+                                <h2>Tom Hanks</h2>
+                                <h3>Faunder vs CEO</h3>
+                                <a href="">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body7">
+            <h1 class="h1">Our Pricing Table</h1>
+            <p>Pallamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <div class="cards">
+                <div class="card1">
+                    <div class="up">
+                        <h2>Basic</h2>
+                        <h1> <sup>$</sup>99</h1>
+                        <h2>Monthly</h2>
+                    </div>
+
+                    <div class="down">
+                        <h3>01 User </h3>
+                        <h3>01 Project</h3>
+                        <h3>01 Advisor Team</h3>
+                        <h3>Complate Statistics</h3>
+                        <h3>E-mail Support</h3>
+                        <a href="">Sign Up Now</a>
+                    </div>
+                </div>
+                <div class="card2">
+                    <div class="up">
+                        <h2>Standard</h2>
+                        <h1> <sup>$</sup> 299</h1>
+                        <h2>Monthly</h2>
+                    </div>
+
+                    <div class="down">
+                        <h3> 05 User </h3>
+                        <h3> 05 Project </h3>
+                        <h3> 05 Advisor Team </h3>
+                        <h3> Complate Statistics </h3>
+                        <h3> Full Support </h3>
+                        <a href="">Sign Up Now</a>
+                    </div>
+                </div>
+                <div class="card3">
+                    <div class="up">
+                        <h2>Advenced</h2>
+                        <h1> <sup>$</sup> 499</h1>
+                        <h2>Monthly</h2>
+                    </div>
+
+                    <div class="down">
+                        <h3> 10 User </h3>
+                        <h3> 10 Project </h3>
+                        <h3> 10 Advisor Team </h3>
+                        <h3> Complate Statistics </h3>
+                        <h3> Full Support </h3>
+                        <a href="">Sign Up Now</a>
+                    </div>
+                </div>
+                <div class="card4">
+                    <div class="up">
+                        <h2>Unlimited</h2>
+                        <h1> <sup>$</sup> 1099</h1>
+                        <h2>Monthly</h2>
+                    </div>
+
+                    <div class="down">
+                        <h3> Unlimited User </h3>
+                        <h3> Unlimited Project </h3>
+                        <h3> Unlimited Advisor Team </h3>
+                        <h3> Complate Statistics </h3>
+                        <h3> Full Support </h3>
+                        <a href="">Sign Up Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body8">
+            <div class="tips">
+               <div> <img src="pics/client/1.png" alt=""> </div> 
+               <div> <img src="pics/client/2.png" alt=""> </div> 
+               <div> <img src="pics/client/3.png" alt=""> </div> 
+               <div> <img src="pics/client/4.png" alt=""> </div> 
+               <div> <img src="pics/client/5.png" alt=""> </div> 
+            </div>
+        </div>
+
+        <div class="body9">
+            <div class="double">
+                <div class="h">
+                    <h1>Want To Start A New Project With Us? Let’s Start!</h1>
+                </div>
+                <div class="b">
+                    <button>Start now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="body10">
+            <div class="row">
+                <div class="row1">
+    
+                    <div class="col1">
+                        <h2>About us</h2>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quisquam nulla dolor illum a soluta
+                            facilis aspernatur, dolorum fugit, obcaecati animi. Laudantium accusantium
+                            debitis dolores delectus ex quam possimus! Placeat unde obcaecati cupiditate.</p>
+                    </div>
+    
+                    <div class="col2">
+                        <h2>Get in Touch</h2>
+                        <hr>
+                        <p>34/8, East Hukupara, Gifirtok, Sadan</p><br>
+                        <p>support@fruitkha.com</p><br>
+                        <p>+00 111 222 3333</p>
+                    </div>
+    
+                    <div class="col3">
+                        <h2>Pages</h2>
+                        <hr>
                         <ul>
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Service</li>
-                            <li>Project</li>
-                            <li>Team</li>
-                            <li>Blog</li>
-                            <li>Contact</li>
-                            <li>#</li>
-                            <li>@</li>
+                            <li> <b> &gt;</b> Home</li>
+                            <li> <b> &gt;</b> About</li>
+                            <li> <b> &gt;</b> Shop</li>
+                            <li> <b> &gt;</b> News</li>
+                            <li> <b> &gt;</b> Contact</li>
                         </ul>
-        
                     </div>
-        
+    
+                    <div class="col4">
+                        <h2>Subscribe</h2>
+                        <hr>
+                        <p>Subscribe to our mailing list to get the latest updates.</p>
+                        <form>
+                        <input type="email" placeholder="Email">
+                        <input class="submit" type="submit" value="telegram">
+                        </form>
+                    </div>
+    
                 </div>
-        
-            
-        
-            <div class="home-main">
-        
-                <div class="container">
-        
-                    <div class="home-main-content">
-                        <h1 class="h1">Consult Your <br> Business</h1>
-                        <br>
-                        <P>We are the enique Consultancy Farm for your Business. You can join us easyly, we have very great
-                            oppotunities to start your business or open your own company</P>
-                    </div>
-                    <br>
-                    <div class="btn">
-                        <button>get started</button>
-                        <button>explore more</button>
-                    </div>
-        
+            </div>
+    
+            <hr>
+            <div class="row2">
+                <div class="rol1">
+                    <p>copyright &copy; 2019- <span>Imran Hossain,</span> All Rights Reserved.</p>
                 </div>
+    
+            </div>
+    
+        </div>
+
     </div>
-</div>
+
 </body>
+
 </html>
